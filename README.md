@@ -4,8 +4,8 @@
 ## Project Proposal Template:
 
 ### Project Title or Name of the Application	:
-### Section			   	      :
-### Group Members			    :
+### Section			   	      : Sodium
+### Group Members			    : Andreas Chance Co, Randy Remonte, Jien Audrei Tomaneng
 ### Date (Proposal Date)  : Nov 5, 2026
 
 ### Project Description:
