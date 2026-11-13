@@ -22,7 +22,8 @@ A Product has a name and a unit price. (Goods and services count here.)
 
 The target users are cashiers in small business booths, mainly temporary ones (e.g. fundraising, school fairs). While the project application is currently intended to be a simulation, the source code may be modified for real, practical use afterwards.
 
-
+### Class diagram:
+![Project class diagram](CS3_Na_Project-class-diagram.drawio.png)
 
 ### Goals:
 
