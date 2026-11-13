@@ -3,7 +3,7 @@
 
 ## Project Proposal Template:
 
-### Project Title or Name of the Application	: SchoolPOS
+### Project Title or Name of the Application	: SchoolPOS Simulation
 ### Section			   	      : Sodium
 ### Group Members			    : Andreas Chance Co, Randy Remonte, Jien Audrei Tomaneng
 ### Date (Proposal Date)  : Nov 13, 2026
@@ -12,11 +12,16 @@
 
 SchoolPOS is a simple program that models how checkout transactions work in a school setting. Manual calculations and tracking of sales are slow and prone to error. This application aims to automate in item pricing, receipt generation, and transaction logging.
 
-- Describes system components, features, and expected outputs clearly and logically. NOTE: Clearly described the elements(classes), their attributes and methods and how they will interact with each other.
+The entire system is composed of persons (customers and cashiers), whose data shall be kept private and shall be deleted when necessary; Products (goods or services) along with their quantities; transactions; and at least a money vault. 
 
-...
+A single Transaction has a date and time, at least one Customer, at least one Product or Service, additional discounts or fees, optional notes as strings, and at least a cashier in charge. In this class, total price can be calculated, and attributes may be changed through setters in case of inputting mistakes or sudden transactional changes. Transaction data can then be logged into a spreadsheet or spreadsheet-compatible file.
 
-The target users are cashiers in small business stalls, mainly temporary ones (e.g. fundraising, school fairs).
+A Person has a name and a list of transactions. The parent class has two subclasses: Customer with unit (batch/faculty department), and Cashier with actual shift time ranges.
+
+A Product has a name and a unit price. (Goods and services count here.)
+
+The target users are cashiers in small business booths, mainly temporary ones (e.g. fundraising, school fairs). While the project application is currently intended to be a simulation, the source code may be modified for real, practical use afterwards.
+
 
 **Sample class Diagram from https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png:**
 
@@ -26,7 +31,7 @@ The target users are cashiers in small business stalls, mainly temporary ones (e
 
 Describe the long term outcomes of your project followed by a couple of objectives to meet the goals stated in this paragraph
 
-- Objective 1: Apply inheritance by extending Customer and Cashier classes from a single Person class, and Service from Item.
+- Objective 1: Apply inheritance by extending Customer and Cashier classes from a single Person class.
 - Objective 2: Automate basic math in the checkout, accounting for item quantities, service fees, discounts, and total cost.
 - Objective 3: Output a receipt and save the transaction record under the customer and in a spreadsheet-compatible file (e.g. CSV, Google Sheets)
 
