@@ -10,13 +10,13 @@
 
 ### Project Description:
 
-- SchoolPOS is a simple program that models how checkout transactions work in a school setting. Manual calculations and tracking of sales are slow and prone to error. This application aims to automate in item pricing, receipt generation, and transaction logging.
+SchoolPOS is a simple program that models how checkout transactions work in a school setting. Manual calculations and tracking of sales are slow and prone to error. This application aims to automate in item pricing, receipt generation, and transaction logging.
 
 - Describes system components, features, and expected outputs clearly and logically. NOTE: Clearly described the elements(classes), their attributes and methods and how they will interact with each other.
 
-- Include the description as well of your target demographics as the user of your application. 
+...
 
-- The description is then followed by the class diagram, depicting clearly what was described.
+The target users are cashiers in small business stalls, mainly temporary ones (e.g. fundraising, school fairs).
 
 **Sample class Diagram from https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png:**
 
